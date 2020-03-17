@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 const componentSchema = new mongoose.Schema({
-  uri: {
+  name: {
     type: String
   },
   schemaConfig: {
